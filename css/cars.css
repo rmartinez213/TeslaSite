@@ -1,0 +1,238 @@
+/* 
+Extra small
+<576px	Small
+≥576px	Medium
+≥768px	Large
+≥992px	Extra large
+≥1200px 
+*/
+
+.car-header-text{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cars-description-div{
+    background-color: #31393C;
+    padding-top: 20px;
+    color: black;
+}
+
+.cars-body-icons{
+    height: 70px;
+    width: 70px;
+}
+
+.icons-text{
+    text-align: center; 
+    padding-top: 2%;
+}
+
+
+
+/* Padding for car description */
+
+.cars-container{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.row-item-padding{
+    padding-bottom: 5%;
+}
+
+.subsequent-car-row{
+    padding-top: 1.5%;
+}
+
+
+.left-right-divider{
+    margin-left: 5px; 
+    margin-right: 5px;
+}
+
+.button-div{
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.button-style:hover{
+    background-color: black;
+    transition: 0.8s;
+}
+
+.carousel-indicators-padding{
+    bottom: -30px !important;
+}
+
+
+@media only screen and (min-width:0px) and (max-width: 576px){
+    .cars-image{
+        height:200px;
+        width:300px;
+    }
+
+    .right-car-style{
+        margin-top: 4%;
+    }
+
+    .cars-container{
+        padding-top: 5%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .subsequent-car-row{
+        padding-top: 4%;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width: 844px){
+    .mileage-border{
+        border-right: none !important;
+        border-bottom:  1px solid black !important;
+        padding-bottom: 2%;
+
+    }
+}
+
+@media only screen and (min-width:845px) and (max-width: 3000px){
+    .mileage-border{
+        border-right: 1px solid black !important;
+        border-bottom: none !important;
+
+    }
+}
+
+
+/* Implement necessary padding for single item in a row */
+@media only screen and (min-width:576px) and (max-width: 823px){
+    .cars-image{
+        height:275px;
+        width:375px;
+    }
+
+    .right-car-style{
+        margin-top: 1.5%;
+    }
+
+    .cars-container{
+        padding-top: 5%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .right-car-style{
+        margin-top: 4%;
+    }
+
+    .subsequent-car-row{
+        padding-top: 4%;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 720px){
+    .cars-image{
+        height:275px;
+        width:375px;
+    }
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 821px){
+    .right-car-style{
+        margin-top: 1.5%;
+    }
+    .left-right-divider{
+        margin-left: 0px !important; 
+        margin-right: 0px !important;
+    }    
+}
+
+
+@media only screen and (min-width: 821px) and (max-width: 867px){
+    
+
+    .left-right-divider{
+        margin-left: 1px !important; 
+        margin-right: 1px !important;
+    }    
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .cars-image{
+        height:350px;
+        width:450px;
+    } 
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1000px) {
+    .left-right-divider{
+        margin-left: 1px !important; 
+        margin-right: 1px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .cars-image{
+        height:375px;
+        width:525px;
+    }
+}
+
+/* Animations */
+@media only screen and (min-device-width: 0px) and (max-device-width: 767px){
+    .animateMe1{
+        animation: bounceInRight;
+        animation-delay: .2s;
+    }
+    
+    .animateMe2{
+        animation: bounceInRight;
+        animation-delay: .4s;
+    }
+    .animateMe3{
+        animation: bounceInRight;
+        animation-delay: .6s;
+    }
+    .animateMe4{
+        animation: bounceInRight;
+        animation-delay: .8s;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 3000px){
+    .animateMe1{
+        animation: bounceInRight;
+        animation-delay: 0.7s;
+    }
+    
+    .animateMe2{
+        animation: bounceInRight;
+        animation-delay: 0.7s;
+    }
+    .animateMe3{
+        animation: bounceInLeft;
+        animation-delay: 0.7s;
+    }
+    .animateMe4{
+        animation: bounceInLeft;
+        animation-delay: 0.7s;
+    }
+}
+
+/* height="400" length="300" */

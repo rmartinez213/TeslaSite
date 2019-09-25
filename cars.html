@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Car Dealer</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/cars.css">
+    <script type="text/js" src="js/bootstrap.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    
+    <!-- Scaling for mobile devices -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- CSS Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- Animate On Scroll Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <span class="navbar-brand">TESLA</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="cars.html">Cars<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="customize.html">Customize</a>
+                <a class="dropdown-item" href="dealers.html">Local Dealers</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid cars-container">
+        <div class="row">
+            <div class="col-lg col-md rounded border border-dark" data-aos="zoom-in" data-aos-duration="700">
+                <div style="background-color: aliceblue" class="rounded-top">
+                    <p class="car-header-text">Tesla Model 3</p>
+
+                    <!-- Carousel -->
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                      <ol class="carousel-indicators carousel-indicators-padding">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="bg-dark active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-dark"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-dark"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3" class="bg-dark"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4" class="bg-dark"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/Tesla Model 3/Model 3 White.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model 3/Model 3 Black.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model 3/Model 3 Metallic.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model 3/Model 3 Blue.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model 3/Model 3 Red.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                      </div>
+
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+
+                    <!-- Text Boxes -->
+                    <div class="container" style="padding-top: 5%">
+                        <div class="row" style="padding-bottom: 3%">
+                          <div class="mileage-border col-lg col-md container" >
+                            <h2>310 mi</h2>
+                            Go anywhere with up to 310 mi of range on a single charge
+                          </div>
+
+                          <div class="mileage-border col-lg col-md container">
+                            <h2>15 min</h2>
+                            Recharge up to 172 mi in 15 minutes at Supercharger locations
+                          </div>
+                          
+                          <div class="col-lg col-md container">
+                            <h2>14,000+</h2>
+                            Superchargers placed along well-traveled routes around the world
+                          </div>
+                        </div>
+                      </div>
+
+                    <!-- Buy Button -->
+                    <div class="button-div">
+                      <button type="button" class="btn btn-secondary border border-dark mx-auto d-block button-style">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="cars-description-div">
+                  <div class="container">
+
+                    <div class="row">
+                      <div class="col-lg col-md row-item-padding animated animateMe1">
+                          <img src="images/svg/model3_weather.svg" class="cars-body-icons mx-auto d-block"/> <p class="icons-text">Unparalleled traction and control</p>
+                      </div>
+
+                      <div class="col-lg col-md row-item-padding animated animateMe2">
+                          <img src="images/svg/model3_roof.svg" class="cars-body-icons mx-auto d-block"/> <p class="icons-text">Expansive Glass Roof</p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg col-md row-item-padding animated animateMe3">
+                          <img src="images/Icons/electric-charge.png" class="cars-body-icons mx-auto d-block"/> <p class="icons-text">Recharge up to 172 mi in 15 min</p>
+                      </div>
+
+                      <div class="col-lg col-md animated animateMe4">
+                          <img src="images/Icons/seat-belt.png" class="cars-body-icons mx-auto d-block"/> <p class="icons-text">5 Star Overall NHTSA Safety</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+           
+            <div class="left-right-divider">
+
+            </div>
+
+            <div class="right-car-style col-lg col-md rounded border border-dark" data-aos="zoom-in" data-aos-duration="700">
+                <div style="background-color: aliceblue" class="rounded-top">
+                    <p class="car-header-text">Tesla Model S</p>
+                    
+
+                    <!-- Carousel -->
+                    <div id="carousel2" class="carousel slide">
+                      <ol class="carousel-indicators carousel-indicators-padding">
+                        <li data-target="#carousel2" data-slide-to="0" class="active bg-dark"></li>
+                        <li data-target="#carousel2" data-slide-to="1" class="bg-dark"></li>
+                        <li data-target="#carousel2" data-slide-to="2" class="bg-dark"></li>
+                        <li data-target="#carousel2" data-slide-to="3" class="bg-dark"></li>
+                        <li data-target="#carousel2" data-slide-to="4" class="bg-dark"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/Tesla Model S/Model S White.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model S/Model S Black.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model S/Model S Metalic.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model S/Model S Blue.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model S/Model S Red.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                      </div>
+                      
+                      <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+
+                    <!-- Text Boxes -->
+                    <div class="container" style="padding-top: 5%">
+                        <div class="row" style="padding-bottom: 3%">
+                          <div class="mileage-border col-lg col-md container" >
+                            <h2>370 mi</h2>
+                            The longest electric range of any car on the road—up to 370 miles
+                          </div>
+
+                          <div class="mileage-border col-lg col-md container">
+                            <h2>15 min</h2>
+                            Recharge up to 130 mi in 15 minutes at Supercharger locations
+                          </div>
+                          
+                          <div class="col-lg col-md container">
+                            <h2>14,000+</h2>
+                            Superchargers placed along well-traveled routes around the world
+                          </div>
+                        </div>
+                      </div>
+
+                    <!-- Buy Button -->
+                    <div class="button-div">
+                      <button type="button" class="btn btn-secondary border border-dark mx-auto d-block button-style">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="cars-description-div">
+                  <div class="container">
+
+                    <div class="row">
+                      <div class="col-lg col-md row-item-padding animated animateMe1">
+                          <img src="images/Icons/electric-charge.png" class="cars-body-icons mx-auto d-block"/> <p class="icons-text">Here is some text</p>
+                      </div>
+
+                      <div class="col-lg col-md row-item-padding animated animateMe2">
+                          <img src="images/Icons/gauge.png" class="cars-body-icons mx-auto d-block"/> <p class="icons-text">Here is some text</p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg col-md row-item-padding animated animateMe3">
+                          <img src="images/Icons/reuse.png" class="cars-body-icons mx-auto d-block"/> <p class="icons-text">Advance safety features</p>
+                      </div>
+
+                      <div class="col-lg col-md animated animateMe4">
+                          <img src="images/Icons/seat-belt.png" class="cars-body-icons mx-auto d-block"/> <p class="icons-text">Clean air, for us all!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row subsequent-car-row" data-aos="zoom-in" data-aos-duration="1200">
+            <div class="left-car-style col-lg col-md rounded border border-dark">
+                <div style="background-color: aliceblue" class="rounded-top">
+                    <p class="car-header-text">Tesla Model X</p>
+
+                    <!-- Carousel -->
+                    <div id="carousel3" class="carousel slide">
+                      <ol class="carousel-indicators carousel-indicators-padding">
+                        <li data-target="#carousel3" data-slide-to="0" class="active bg-dark"></li>
+                        <li data-target="#carousel3" data-slide-to="1" class="bg-dark"></li>
+                        <li data-target="#carousel3" data-slide-to="2" class="bg-dark"></li>
+                        <li data-target="#carousel3" data-slide-to="3" class="bg-dark"></li>
+                        <li data-target="#carousel3" data-slide-to="4" class="bg-dark"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/Tesla Model X/model-x-white.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model X/model-x-black.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model X/model-x-metallic.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model X/model-x-blue.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model X/model-x-red.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+
+                    <!-- Buy Button -->
+                    <div class="button-div">
+                      <button type="button" class="btn btn-secondary border border-dark mx-auto d-block button-style">Order Now</button>
+                    </div>
+                </div>
+              
+                <div class="cars-description-div">
+                  <div class="container">
+
+                    <div class="row">
+                      <div class="col-lg col-md row-item-padding">
+                          <img src="images/Icons/gauge.png" class="cars-body-icons mx-auto d-block "/> <p class="icons-text">Quickest SUV on earth</p>
+                      </div>
+
+                      <div class="col-lg col-md row-item-padding">
+                          <img src="images/svg/MX_roof.svg" class="cars-body-icons mx-auto d-block "/> <p class="icons-text">Panoramic Windshields</p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg col-md row-item-padding">
+                          <img src="images/svg/MX_falcon-wings.svg" class="cars-body-icons mx-auto d-block "/><p class="icons-text">Falcon Wing Doors</p>
+                      </div>
+
+                      <div class="col-lg col-md">
+                          <img src="images/Icons/seat-belt.png" class="cars-body-icons mx-auto d-block "/><p class="icons-text">5 Star Overall NHTSA Safety</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+        
+            <div class="left-right-divider">
+
+            </div>
+            
+            
+            <div class="right-car-style col-lg col-md rounded border border-dark" data-aos="zoom-in" data-aos-duration="1100">
+                <div style="background-color: aliceblue" class="rounded-top">
+                    <p class="car-header-text">Tesla Model Y</p>
+
+
+                    <!-- Carousel -->
+                    <div id="carousel4" class="carousel slide">
+                      <ol class="carousel-indicators carousel-indicators-padding">
+                        <li data-target="#carousel4" data-slide-to="0" class="active bg-dark"></li>
+                        <li data-target="#carousel4" data-slide-to="1" class="bg-dark"></li>
+                        <li data-target="#carousel4" data-slide-to="2" class="bg-dark"></li>
+                        <li data-target="#carousel4" data-slide-to="3" class="bg-dark"></li>
+                        <li data-target="#carousel4" data-slide-to="4" class="bg-dark"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/Tesla Model Y/Model Y White.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model Y/Model Y Black.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model Y/Model Y Metallic.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model Y/Model Y Blue.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/Tesla Model Y/Model Y Red.png" class="mx-auto d-block cars-image"/>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+
+                    <!-- Buy Button -->
+                    <div class="button-div">
+                      <button type="button" class="btn btn-secondary border border-dark mx-auto d-block button-style">Order Now</button>
+                    </div>
+                </div>
+              
+                <div class="cars-description-div">
+                  <div class="container ">
+
+                    <div class="row">
+                      <div class="col-lg col-md row-item-padding">
+                          <img src="images/svg/modely_roof.svg" class="cars-body-icons mx-auto d-block"/> <p class="icons-text">Expansive Glass Roof</p>
+                      </div>
+
+                      <div class="col-lg col-md row-item-padding">
+                          <img src="images/svg/modely_room.svg" class="cars-body-icons mx-auto d-block"/> <p class="icons-text">Capacity Up To Seven Adults</p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg col-md row-item-padding">
+                          <img src="images/svg/modely_seating.svg" class="cars-body-icons mx-auto d-block"/> <p class="icons-text">Versatile Seating and Storage</p>
+                      </div>
+
+                      <div class="col-lg col-md">
+                          <img src="images/Icons/seat-belt.png" class="cars-body-icons mx-auto d-block"/> <p class="icons-text">5 Star Overall NHTSA Safety</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+        <!-- Footer Elements -->
+        <div class="container">
+      
+          <!-- Social buttons -->
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-lg btn-fb">
+                <i class="fab fa-facebook-f"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-tw mx-1">
+                <i class="fab fa-twitter"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-gplus mx-1">
+                <i class="fab fa-google-plus-g"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-li mx-1">
+                <i class="fab fa-linkedin-in"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-dribbble mx-1">
+                <i class="fab fa-dribbble"> </i>
+              </a>
+            </li>
+          </ul>
+          <!-- Social buttons -->
+      
+        </div>
+        <!-- Footer Elements -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+          © 2019 Robert Martinez
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+
+      <script>
+          AOS.init();
+      </script>  
+
+</body>
+</html>
