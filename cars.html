@@ -2,11 +2,12 @@
 <html>
 
 <head>
-    <title>Car Dealer</title>
+    <title>Tesla</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/cars.css">
     <script type="text/js" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -16,8 +17,7 @@
     <!-- Scaling for mobile devices -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <!-- CSS Animate -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    
     <!-- Animate On Scroll Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -46,10 +46,10 @@
                 More
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="customize.html">Customize</a>
-                <a class="dropdown-item" href="dealers.html">Local Dealers</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="customize.html">Customize</a>
+                  <a class="dropdown-item" href="dealers.html">Local Dealers</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
                 </div>
             </li>
             <li class="nav-item">
@@ -106,18 +106,18 @@
                     <div class="container" style="padding-top: 5%">
                         <div class="row" style="padding-bottom: 3%">
                           <div class="mileage-border col-lg col-md container" >
-                            <h2>310 mi</h2>
-                            Go anywhere with up to 310 mi of range on a single charge
+                            <h2 class="animated text-mil-header">310 mi</h2>
+                            <div class="animated text-mil-body">Go anywhere with up to 310 mi of range on a single charge</div>
                           </div>
 
                           <div class="mileage-border col-lg col-md container">
-                            <h2>15 min</h2>
-                            Recharge up to 172 mi in 15 minutes at Supercharger locations
+                            <h2 class="animated text-mil-header">15 min</h2>
+                            <div class="animated text-mil-body">Recharge up to 172 mi in 15 minutes at Supercharger locations</div>
                           </div>
                           
                           <div class="col-lg col-md container">
-                            <h2>14,000+</h2>
-                            Superchargers placed along well-traveled routes around the world
+                            <h2 class="animated text-mil-header">14,000+</h2>
+                            <div class="animated text-mil-body">Superchargers placed along well-traveled routes around the world</div>
                           </div>
                         </div>
                       </div>
@@ -296,6 +296,26 @@
                       </a>
                     </div>
 
+                    <!-- Text Boxes -->
+                    <div class="container" style="padding-top: 5%">
+                      <div class="row" style="padding-bottom: 3%">
+                        <div class="mileage-border col-lg col-md container" >
+                          <h2>325 mi</h2>
+                          The longest electric range of any sport utility vehicle on the road
+                        </div>
+
+                        <div class="mileage-border col-lg col-md container">
+                          <h2>15 min</h2>
+                          Recharge up to 115 miles in 15 minutes at any Supercharger location
+                        </div>
+                        
+                        <div class="col-lg col-md container">
+                          <h2>14,000+</h2>
+                          Superchargers placed along well-traveled routes around the world
+                        </div>
+                      </div>
+                    </div>
+
                     <!-- Buy Button -->
                     <div class="button-div">
                       <button type="button" class="btn btn-secondary border border-dark mx-auto d-block button-style">Order Now</button>
@@ -373,6 +393,26 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>
+                    </div>
+
+                    <!-- Text Boxes -->
+                    <div class="container" style="padding-top: 5%">
+                      <div class="row" style="padding-bottom: 3%">
+                        <div class="mileage-border col-lg col-md container" data-aos="fade-up" data-aos-delay="650" >
+                          <h2>300 mi</h2>
+                          <div data-aos="fade-up" data-aos-delay="800">The longest electric range of any sport utility vehicle on the road</div>
+                        </div>
+
+                        <div class="mileage-border col-lg col-md container" data-aos="fade-up" data-aos-delay="650" >
+                          <h2>15 min</h2>
+                          <div data-aos="fade-up" data-aos-delay="800">Recharge up to 168 miles in 15 minutes at any Supercharger locations</div>
+                        </div>
+                        
+                        <div class="col-lg col-md container">
+                          <h2><div data-aos="fade-up" data-aos-delay="650">14,000+</div></h2>
+                          <div data-aos="fade-up" data-aos-delay="800">Superchargers placed along well-traveled routes around the world</div>
+                        </div>
+                      </div>
                     </div>
 
                     <!-- Buy Button -->

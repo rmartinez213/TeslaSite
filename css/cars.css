@@ -196,6 +196,16 @@ Extra small
 
 /* Animations */
 @media only screen and (min-device-width: 0px) and (max-device-width: 767px){
+    .text-mil-header{
+        animation: slideInUp;
+        animation-delay: 0.2s;
+    }
+
+    .text-mil-body{
+        animation: slideInUp;
+        animation-delay: 0.8s;
+    }
+
     .animateMe1{
         animation: bounceInRight;
         animation-delay: .2s;
@@ -216,22 +226,32 @@ Extra small
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 3000px){
+    .text-mil-header{
+        animation: slideInUp;
+        animation-delay: 0.2s;
+    }
+
+    .text-mil-body{
+        animation: slideInUp;
+        animation-delay: 0.8s;
+    }
+
     .animateMe1{
-        animation: bounceInRight;
-        animation-delay: 0.7s;
+        animation: fadeInUp;
+        animation-delay: 1.1s;
     }
     
     .animateMe2{
-        animation: bounceInRight;
-        animation-delay: 0.7s;
+        animation: fadeInUp;
+        animation-delay: 1.1s;
     }
     .animateMe3{
-        animation: bounceInLeft;
-        animation-delay: 0.7s;
+        animation: fadeInUp;
+        animation-delay: 1.1s;
     }
     .animateMe4{
-        animation: bounceInLeft;
-        animation-delay: 0.7s;
+        animation: fadeInUp;
+        animation-delay: 1.1s;
     }
 }
 
