@@ -1,0 +1,118 @@
+.body{
+    width: 100%;
+    height: 100%;
+}
+.header-content{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid;
+    border-color: #dfdfdf;
+}
+
+.tesla-text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.car-style{
+    width: 100%; 
+    height: auto;
+}
+
+.car-options{
+    border-left: 1px solid;
+    border-color: #dfdfdf;
+    height: 2000px; 
+    width: 100%;
+}
+
+.savings{
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: black;
+    padding: 5px;
+}
+
+button:focus{
+    outline: 0;
+}
+
+.footer-content{
+    background-color: blanchedalmond;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+}
+
+.image-option1{
+    background-image: url("../images/Tesla Model 3/Model 3 White.png");
+    background-position: center;
+    height: 1000px;
+    width: 100%;
+}
+
+ul{
+    text-align: left;
+    padding-left: 18px;
+}
+
+li{
+    line-height: 40px;
+    color: #666;
+}
+
+.modal-body{
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.modal-link1{
+    color: #666;
+    text-decoration: underline;
+}
+
+.modal-link1:hover{
+    color: #666;
+    
+}
+
+.text-loader--disclaimer{
+    
+}
+
+@media only screen and (min-width: 992px){
+    body{
+        overflow-y: hidden;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .car-options{
+        border-top: 1px solid;
+        border-color: #dfdfdf;
+    }
+}
+
+/* Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
