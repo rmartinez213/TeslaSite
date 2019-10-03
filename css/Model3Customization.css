@@ -23,7 +23,7 @@
 .car-options{
     border-left: 1px solid;
     border-color: #dfdfdf;
-    height: 2000px; 
+    height: 1000px; 
     width: 100%;
 }
 
@@ -79,6 +79,8 @@ li{
     
 }
 
+
+
 .text-loader--disclaimer{
     
 }
@@ -93,6 +95,16 @@ li{
     .car-options{
         border-top: 1px solid;
         border-color: #dfdfdf;
+    }
+
+    .modal-text{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .modal-text{
+        font-size: 12px;
     }
 }
 
